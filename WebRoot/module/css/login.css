@@ -1,0 +1,77 @@
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background-image:url("../img/loginbackImg.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.loginName{
+	background-image: url("../img/loginName.png");
+	width:450px;
+	height: 100px;
+	margin:50px auto;
+	margin-bottom:0px;
+	background-repeat: no-repeat;
+
+}
+.loginBox{
+	padding-top: 10px;
+	width:550px;
+	height:190px;
+	margin:50px auto;
+	margin-bottom: 0px;
+}
+.center{
+	width:300px;
+	display: block;
+	margin:30px auto;
+    padding: 14px 18px;
+   	opacity: 0.8;
+   	border:none;
+    border-radius: 8px;
+}
+.name{
+	margin-top:0px;
+}
+.password{
+	margin-top:30px;
+}
+.login{
+	background-color: #4395ff;	
+	font-size:16px;
+	opacity: 1;
+	border:none;
+	color:#ffffff;
+	cursor:pointer;
+}
+.register{
+	background-color: #4395ff;	
+	font-size:16px;
+	opacity: 1;
+	border:none;
+	color:#ffffff;
+	cursor:pointer;
+}
+.remind{
+	color: red;
+    font-size: 13px;
+    text-align: center;
+}
+.name:focus {
+	height:30px;
+	width:350px;
+}
+.name:blur{
+	height:15px;
+	width:300px;
+}
+.password:focus {
+	height:30px;
+	width:350px;
+}
+.password:blur{
+	height:15px;
+	width:300px;
+}

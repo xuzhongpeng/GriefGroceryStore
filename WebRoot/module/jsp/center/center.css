@@ -1,0 +1,12 @@
+.center{
+	width:900px;
+	height: auto;
+	margin: 2px auto;
+	background-color:white;
+	box-shadow: 0px 6px 9px 1px #cfcfcf;
+	padding:30px;
+	zoom:1;
+	overflow:hidden;
+	clear: both;  
+	padding-bottom: 50px;
+}

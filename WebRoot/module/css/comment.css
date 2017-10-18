@@ -1,0 +1,172 @@
+.info1{
+	width:610px;
+	height:auto;
+	padding: 10px;
+	//min-height: 302px;
+	margin:10px;
+	margin-top: 20px;
+	/*/box-shadow: 0px 1px 9px 1px #cfcfcf;*/
+	//clear: both;  
+	zoom:1;
+	overflow: hidden;	
+}
+
+.headeImg{
+	width: 80px;
+	height: 80px;
+	box-shadow: 0px 1px 9px 1px #cfcfcf;
+}
+.centerDiv{
+	float: right;
+	width: 520px;
+	height:auto;
+	//min-height: 382px;
+	box-shadow: 6px -4px 9px 0px #cfcfcf;
+}
+.information{
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+	float: right;
+	padding-bottom: 20px;
+	width:429px;
+	height:auto;
+	//min-height: 355px;
+	box-shadow: 0px 5px 7px 0px #cfcfcf;
+}
+.triangle {
+	margin-top:5px;
+	position: relative;
+	width: 0;
+	height: 0;
+	border-width: 10px;
+	border-style: solid;
+	border-color: white transparent transparent transparent;	
+} 
+.triangle::after {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 17px;
+	transform:rotate(45deg);
+	top: -12px;
+	left:-12px;
+	box-shadow: -2px 6px 4px -5px #cfcfcf;
+}   
+.userName{
+	display: block;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.userName:hover{
+	color: #135fab;
+}
+.picture{
+	margin-top:20px;
+	width: 200px;
+
+}
+.whatIsay{
+	line-height: 1.6;
+	font-size: 14px;
+	text-align: left;
+	color: #135fab;
+	font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+}
+
+.interactive{/*娴溿倓绨板Ο鈥虫健*/
+	width:459px;
+	height: 20px;
+	margin-top:20px;
+	margin-bottom: 14px;
+    line-height: 19px;
+    color: #aaa;
+}
+.opti{
+    z-index: 3;
+    zoom: 1;
+    float: right;
+    margin-right: 18px;
+    white-space: nowrap;
+}
+.opti a{
+	font-size: 13px;
+}
+.opti img{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.opti a:hover{
+	color: #135fab;
+}
+.comment{
+	display: none;
+}
+.thisHr{
+	width:400px;
+	height:1px;
+	margin: 10px;
+	border:none;
+	border-top:1px
+    solid #d3d2d2;
+}
+
+.postComment{
+	margin:10px;
+}
+.postComment:hover{
+	margin:10px;
+}
+.inputComment{
+	float: left;
+    width: 250px;
+    min-height: 30px;
+    padding: 5px;
+    line-height: 15px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border: 1px solid #cececf;
+    outline: none;
+    padding-left: 20px;
+    padding:5px 10px;
+	 resize : none;
+}
+
+.userComment{
+	width:430px;
+	height: auto;
+	min-height: 50px;
+	clear: both;  
+	zoom:1;
+	overflow: hidden;	
+}
+.userComment img{
+	width:40px;
+	height: 40px;
+	cursor: pointer;
+}
+.commentInfo{
+	width:370px;
+	margin-right: 10px;
+	height: auto;
+	min-height: 50px;
+	float: right;
+	display: inline;
+}
+/**/
+.articleTitle{
+	color:#919b8c;
+	text-decoration: underline;
+	cursor: pointer;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+}
+.articleTitle:hover{
+	color:#6c7866;
+}
+.pulishTime{
+	font-size:14px;
+	float: left;
+}

@@ -1,0 +1,14 @@
+.leftContent{
+	float: left;
+	width:240px;
+	height: auto;	
+	//clear: both;  
+	zoom:0;
+	overflow: hidden;	
+}
+.rightContent{
+	float: right;
+	width:640px;
+	height: auto;
+}
+.

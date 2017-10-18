@@ -1,0 +1,90 @@
+body{
+	background-image: url("../img/backimg.png");
+    background-color: #dfdfe1;
+}
+.animation{
+	opacity: 1;
+	animation:myfirst 3s;
+	-moz-animation:myfirst 3s; 
+	-webkit-animation:myfirst 3s; 
+	-o-animation:myfirst 3s; 	
+}
+@keyframes myfirst
+{
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+@-moz-keyframes myfirst 
+{
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+@-webkit-keyframes myfirst 
+{
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+@-o-keyframes myfirst 
+{
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+.button{
+	width:100px;
+	height: 40px;
+	cursor:pointer;
+	border: 0px;
+	font-size: 18px;
+    background: #00b7ee;
+    border-radius: 3px;
+    line-height: 44px;
+    padding: 0 30px;
+    color: #fff;
+    display: inline-block;
+    margin: 20px auto;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.button:hover{
+	background-color: #198fec;
+}
+input{
+	margin:10px;
+	border-radius: 1px;
+	padding: 5px;
+	font-size: 12px;
+    color: #444;
+    text-align: left;
+}
+textarea{
+	margin:10px;
+	border-radius: 1px;
+	padding: 5px;
+	font-size: 12px;
+    color: #444;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    color: #444;
+    outline: none;
+    cursor: pointer;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+}
+p{
+	font-size: 14px;
+    line-height: 20px;
+    color:#8f8d8d;;
+    font-family: "PingFang SC","Lantinghei SC","Microsoft YaHei",arial,"\5b8b\4f53",sans-serif,tahoma;
+}
+.commentUser{
+	display: block;
+    margin-top: -47px;
+    margin-left: 53px;
+    font-size: 14px;
+}
+.commentCon{
+	    font-size: 13px;
+}

@@ -1,0 +1,228 @@
+* body{
+	background-image: url("../img/backimg.png");
+	background-color: #dfdfe1;
+}
+.indexPu{
+	border-bottom: 5px solid #D9D9D9;
+}
+
+#publishPostBar{
+	padding:10px;
+	width:600px;
+	height: 105px;	
+	list-style:none;
+	margin:10px;
+	box-shadow: 0px 1px 9px 1px #cfcfcf;
+}
+
+#publishPostBar li{
+	cursor: pointer;
+	float:left;
+	width:110px;
+	height:110px;
+	margin-right:30px;
+	color:#666;
+	text-align:center;
+	line-height:30px;
+	font-size:20px;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+#publishPostBar li a.publishlink {
+    position: relative;
+    zoom: 1;
+    overflow: visible;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-indent: -2000px;
+   	height: 110px;
+   
+}
+#wrapper .button{
+	float: right;
+    margin-top: 10px;
+}
+#wrapper textarea{
+	width:576px;
+}
+.n21{
+	background: url(../img/fabiao/text.png) no-repeat;
+}
+.n21:hover{
+background: url(../img/fabiao/textF.png) no-repeat;
+}
+.n22{
+	background: url(../img/fabiao/pictureF.png) no-repeat;
+}
+.n22:hover{
+	background: url(../img/fabiao/picture.png) no-repeat;
+}
+.n23{
+	background: url(../img/fabiao/articleF.png) no-repeat;
+}
+.n23:hover{
+	background: url(../img/fabiao/article.png) no-repeat;
+}
+#headImg{
+	width:100px;
+	height:100px;
+}
+/*消息*/
+.left{
+	float: left;
+	width:640px;
+	height: auto;
+	/*clear: both;  
+	zoom:1;
+	overflow: hidden;*/	
+}
+
+
+
+
+/*右边样式*/
+.rightContent{
+	float: right;
+	width:240px;
+	height: auto;
+	//clear: both;  
+	zoom:1;
+	overflow: hidden;	
+}
+
+.userInfo{
+	width:220px;
+	height: 192px;
+	margin:10px;
+	background-color: #efefef;
+	box-shadow: 0px 1px 9px 1px #cfcfcf;
+}
+.userInfo h4{
+	width:195px;
+	height: 30px;
+	padding: 5px;
+	color:#444;;
+	box-shadow: 0px 1px 9px 1px #cfcfcf;
+	padding-left: 20px;
+}
+.userInfo li{
+	color:#444;
+	width: 200px;
+	height: 20px;
+	padding: 15px 10px;
+	border-top: 1px solid #fff;
+	line-height: 15px;
+	font-size:14px;
+	cursor: pointer;
+}
+.userInfo li:hover{
+	background-color: white;
+}
+.userInfo span{
+	float: right;
+}
+.remen{
+	margin: 10px;
+    margin-top: 30px;
+	width: 220px;
+	min-height:50px;
+	margin-bottom: 15px;
+	box-shadow: 0px 1px 9px 1px #cfcfcf;
+}
+.remen p{
+	width:195px;
+	height: 30px;
+	padding: 5px;
+	color:#444;
+	padding-left: 20px;
+	border-bottom: 1px solid #d4d4d4;
+}
+.remen li{
+	color:#6e6c6c;
+	width: 180px;
+	height: 20px;
+	padding: 10px 20px;
+	border-top: 1px solid #fff;
+	line-height: 15px;
+	font-size:14px;
+	cursor: pointer;
+}
+.remen li:hover{
+	background-color: #cfcfcf;	
+}
+
+/*写文字*/
+#writeText{
+	width: 620px;
+    height: 300px;
+    margin: 10px;
+    display: none;
+}
+#writeText button{
+	margin-top: 20px;
+	float:right;
+}
+#wrapper{
+	display:none;
+}
+#caozuo{
+	display:none;
+}
+#articleText{
+	display: none;
+	width: 620px;
+	 margin: 10px;
+	height: auto;
+	margin-bottom: 20px;
+}
+.titleArea{
+	width: 598px;
+	height: 30px;
+	line-height: 30px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border: 1px solid #cececf;
+    font-size: 15px;
+    outline: none;
+    padding-left: 20px;
+    padding: 5px 10px;
+    resize: none;
+}
+#articleText button{
+	float:right;
+	margin-top: 10px;
+}
+
+.loading { 
+	width:0;
+	height:0;
+    border-right: 15px solid #f3f0f0;
+    border-top: 15px solid #b1b1b1;
+    border-left: 15px solid #9e9b9b;
+    border-bottom: 15px solid rgb(212, 210, 211);
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+.loading {
+animation: bganim 0.5s linear 0s infinite;
+-moz-animation: bganim 0.5s linear 0s infinite;
+-webkit-animation: bganim 0.5s linear 0s infinite;
+}
+@keyframes bganim {
+from { transform:rotate(0deg); } to { transform:rotate(360deg); }
+}
+@-moz-keyframes bganim {
+from { -moz-transform:rotate(0deg); } to { -moz-transform:rotate(360deg); }
+}
+@-webkit-keyframes bganim {
+from { -webkit-transform:rotate(0deg); } to { -webkit-transform:rotate(360deg); }
+}
+.FootText{
+	margin-top: -27px;
+    margin-left: 55px;
+}
+.leftFoot{
+    padding-left: 256px;
+}

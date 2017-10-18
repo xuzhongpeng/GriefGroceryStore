@@ -1,0 +1,38 @@
+.hotPu{
+	border-bottom: 5px solid #D9D9D9;
+}
+.center{
+	width:744px;
+}
+.loading { 
+	width:0;
+	height:0;
+    border-right: 15px solid #f3f0f0;
+    border-top: 15px solid #b1b1b1;
+    border-left: 15px solid #9e9b9b;
+    border-bottom: 15px solid rgb(212, 210, 211);
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+.leftFoot{
+    padding-left: 400px;
+}
+.FootText{
+	margin-top: -27px;
+    margin-left: 55px;
+}
+.loading {
+animation: bganim 0.5s linear 0s infinite;
+-moz-animation: bganim 0.5s linear 0s infinite;
+-webkit-animation: bganim 0.5s linear 0s infinite;
+}
+@keyframes bganim {
+from { transform:rotate(0deg); } to { transform:rotate(360deg); }
+}
+@-moz-keyframes bganim {
+from { -moz-transform:rotate(0deg); } to { -moz-transform:rotate(360deg); }
+}
+@-webkit-keyframes bganim {
+from { -webkit-transform:rotate(0deg); } to { -webkit-transform:rotate(360deg); }
+}

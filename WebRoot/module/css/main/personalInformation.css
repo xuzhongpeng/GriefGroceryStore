@@ -1,0 +1,49 @@
+.personPu{
+	border-bottom: 5px solid #D9D9D9;
+}
+.center{
+	margin-top: 20px;
+	background-color: rgba(68, 68, 68, 0);
+	box-shadow:none;
+}
+#header{
+	height:47px;
+	 -webkit-box-sizing:content-box;
+}
+.dt0{
+	background-position: 0 bottom;
+}
+.dt1{
+	width:100%;
+	height: 70px;
+	border-bottom: 1px solid #ebebeb;
+}
+.dt1 h2{
+    font-size: 32px;
+    font-weight: normal;
+    color: #444;
+}
+.dt2{
+	width:100%;
+	min-height: 90px;
+	border-bottom: 1px solid #ebebeb;
+}
+.dtspan{
+	display: inline;
+	 width: 120px;
+	 min-height: 90px;
+	 border-right: 1px solid #ebebeb;
+}
+.dtspan span{
+	float:left;   
+    margin-top:30px;
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+   
+}
+.dtinput{
+	float:left;
+	 width: 500px;
+	 min-height: 90px;
+}

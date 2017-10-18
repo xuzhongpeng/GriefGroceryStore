@@ -1,0 +1,205 @@
+/* 
+ * Reset and Base
+ */ 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;} 
+table{border-collapse:collapse;border-spacing:0;} 
+caption,th{text-align:left;} 
+fieldset,img,a img,iframe,html,body{border:0;} 
+li{list-style:none;} 
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;} 
+h1,h2,h3,h4,h5,h6,em{font-size:100%;font-weight:normal;} 
+b,strong{font-style:normal;font-size:100%;font-weight:bold;} 
+abbr,acronym{border:0;font-variant:normal;} 
+sup{vertical-align:text-top;} 
+sub{vertical-align:text-bottom;} 
+del,ins{text-decoration:none;} 
+[hidefocus]{outline:0;} 
+textarea,input,button,select{font-size:inherit;line-height:inherit;color:inherit;font-family:inherit;outline:0;} 
+textarea{overflow:auto;resize:none;} 
+body{word-wrap:break-word;font:12px/200% "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";}
+textarea,input,select{font-family:"Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";font-size:12px;}
+a,button{cursor:pointer;} 
+a{outline:0;star:expression(this.onFocus=this.blur());}
+.f-cb{clear:both;padding:0;margin:0;font-size:0;line-height:0;height:0;}
+.box:after{clear:both;display:block;visibility:hidden;height:0;overflow:hidden;content:'.';}
+.box{zoom:1;}
+.f-hidden{visibility:hidden;}
+
+a,.m-sch .form{-webkit-transition:all .3s ease;transition:all .3s ease;}
+.m-sch a{-webkit-transition:all 0s ease;transition:all 0s ease;}
+.m-hdimg img{-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;}
+.m-sch .form{-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+a,a:hover{text-decoration:none;}
+/* all bg-imgs */
+
+/* 
+ * Grid
+ */
+.g-hd{background-color:#fff;background-size:cover;background-position:center center;width:100%;height:80px;}
+.g-bd{margin:-53px auto 0;width:1000px;}
+.g-sd{float:left;width:190px;padding:0 60px 0 0;_padding:0 54px 0 0;}
+.g-mn{
+	float: left;
+    width: 550px;
+    padding: 132px 100px 0 0;
+    margin-left: 100px;}
+.g-ft{margin:50px 0 0;padding:50px 0;border-top:1px solid #eee;text-align:center;}
+ 
+/* 
+ * Modules
+ */
+/* hd */
+.m-hdimg img{width:96px;height:96px;border:5px solid #fff;vertical-align:middle;}
+.m-ttl,.m-about{margin:20px 0 0;}
+.m-ttl a{display:inline-block;font-size:20px;line-height:32px;letter-spacing:2px;}
+/* nav bar */
+.m-nav{margin:30px 0 0;border-top:1px solid #eee;padding:25px 0 0;}
+.m-nav li{padding:0 0 8px;}
+.m-nav a{white-space:nowrap;}
+
+.m-sch{position:relative;}
+.m-sch .form,.m-sch .txt{width:0;height:22px;line-height:22px;}
+.m-sch .form{position:absolute;left:0;top:0;padding:0 10px;border:1px solid #aaa;opacity:0;visibility:hidden;}  
+.m-sch .txt{border:0;background:none;}
+.m-schshow .form,.m-schshow .txt{width:80px;}
+.m-schshow .form{opacity:1;visibility:visible;}
+
+/* post list */
+.m-post{border-bottom:1px solid #eee;padding:0 0 50px;margin:0 0 50px;}
+.m-post .ctc .ttl{margin:0 0 20px;font-size:18px;line-height:30px;}
+.m-post .ctc ul,.m-post .ctc ol{padding:0 0 0 25px;}
+.m-post .ctc ul li{list-style:disc outside;}
+.m-post .ctc ol li{list-style:decimal outside;}
+.m-post .ctc blockquote{border-left:1px solid #ccc;padding-left:10px;}
+.m-post .ctc p,.m-post .ctc ul,.m-post .ctc ol,.m-post .ctc blockquote,.m-post .ctc .text,.m-post .ctc .digest{margin:0 0 20px;}
+/* Multimedias of posts */
+.m-post img,.m-post object,.m-post embed{max-width:100% !important;_width:100%;}
+.m-post object,.m-post embed{*width:100%;}
+.m-post-audio .player object,.m-post-audio .player embed{width:257px;vertical-align:middle;}
+.m-post-video .pic object,.m-post-video .pic embed{display:block;width:650px;height:406px;}
+.m-post .cover img,.m-post .thumbnail img{float:left;width:200px;margin:0 30px 20px 0;}
+.m-post img,.m-post-video .pic,.m-post .player{margin-bottom:20px;}
+.m-post img{vertical-align:middle;}
+/* info */
+.info{padding:30px 0 0;}
+.info .sep{padding:0 10px;}
+.info a{display:inline-block;white-space:nowrap;}
+.info-2 a{margin:0 20px 0 0;}
+
+/* post detail */
+/*.m-postdtl .m-post-img .pic,.m-postdtl .m-post .ttl{text-align:center;}
+.m-postdtl .m-post-img .digest{text-align:left;}*/
+.m-cmthot{padding:50px 0;border-top:1px solid #eee;}
+
+/* 以下代码只对有环绕需求的内容使用。副作用：导致ul和ol的每一个li只有一行(gteie8) */
+.gteie8 .m-post-leftimg .text ul,
+.gteie8 .m-post-leftimg .text ol,
+.gteie8 .m-detail-leftimg .text ul,
+.gteie8 .m-detail-leftimg .text ol{padding-left:0;}
+.gteie8 .m-post-leftimg .text ul li,
+.gteie8 .m-detail-leftimg .text ul li{list-style:disc inside none;}
+.gteie8 .m-post-leftimg .text ol li,
+.gteie8 .m-detail-leftimg .text ol li{list-style:decimal inside none;}
+.gteie8 .m-post-leftimg .text ul li p,
+.gteie8 .m-post-leftimg .text ol li p,
+.gteie8 .m-detail-leftimg .text ul li p,
+.gteie8 .m-detail-leftimg .text ol li p{vertical-align:bottom;*vertical-align:baseline;display:-moz-inline-box;display:inline-block;*display:inline;zoom:1;margin:0;}
+.gteie8 .m-post-leftimg .text ul li,
+.gteie8 .m-post-leftimg .text ol li,
+.gteie8 .m-detail-leftimg .text ul li,
+.gteie8 .m-detail-leftimg .text ol li{overflow:hidden;height:27px;line-height:27px;padding-left:2px;}
+.gteie8 .m-post-leftimg .text ul li p,
+.gteie8 .m-post-leftimg .text ol li p,
+.gteie8 .m-detail-leftimg .text ul li p,
+.gteie8 .m-detail-leftimg .text ol li p{overflow:hidden;width:90%;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;word-break:keep-all;}
+
+/* pager */
+.m-pager{padding:0 0 50px;font-size:16px;text-align:center;}
+.m-pager .prev{float:left;}
+.m-pager .next{float:right;}
+/* copyright */
+
+/* Skin */
+/* 博客背景颜色 */
+body{background-color:#fff;}
+/* 内容文字颜色 */
+body{color:#666;}
+/* 内容链接颜色 */
+a{color:#56AAC3;}
+/* 博客标题颜色 */
+.m-ttl a{color:#666;}
+/* 导航链接颜色 */
+.m-nav a,.m-sch .txt{color:#aaa;}
+.m-sch .form{border-color:#aaa;}
+/* 导航链接状态颜色 */
+.m-nav a:hover{color:#888;}
+/* 个人描述颜色 */
+.m-about{color:#aaa;}
+/* 辅助信息颜色 */
+.info,.info a,.m-cprt,.m-cprt a{color:#ccc;}
+/* 辅助信息状态颜色 */
+.info a:hover,.m-cprt a:hover{color:#aaa;}
+
+/* CC图标是放在公共文件夹里，引用图标的样式如下 */
+.cc_1,.cc_2,.cc_3,.cc_4,.cc_5,.cc_6{height:23px;display:inline-block;background:url(http://img.ph.126.net/mSWb4QUe9oKvPvzDWii9gg==/5629512728352684313.png) no-repeat left top;_background-image:url(http://img.ph.126.net/j9xyLTSk8TrBo0SoU7tLgQ==/5629512728352684314.png);}
+.cc_1{width:48px;background-position:0 5px;}
+.cc_2{width:48px;background-position:-55px -19px;}
+.cc_3{width:32px;background-position:0 -43px;}
+.cc_4{width:32px;background-position:-70px -66px;}
+.cc_5{width:32px;background-position:0 -90px;}
+.cc_6{width:14px;background-position:-87px -113px;}
+
+/* cmt & hot */
+.m-cmthot .nctitle{margin-bottom:8px;font-size:14px;}
+.m-cmt,.m-hot{padding:10px 0;}
+.m-cmthot a:hover{text-decoration:underline;}
+.m-hot .avatar{float:left;width:20px;height:20px;border:0;margin:0;}
+.notes{margin:0;padding:0;line-height:20px;font-size:12px;zoom:1;}
+.notes:after{clear:both;content:'.';display:block;height:0;visibility:hidden;overflow:hidden;}
+.notes .clear{clear:both;height:0;overflow:hidden;}
+.m-hot .action{float:right;width:620px;}
+.m-hot .note{list-style:none;margin:0;float:left;width:100%;padding:10px 0;border-top:1px solid #eee;}
+.notes blockquote{padding: 0 0 0 15px;margin-left:30px;overflow:hidden;word-wrap:break-word;border-left:1px solid #ccc;}
+
+.a-control {
+    position: relative;
+    transition: top 0.3s, opacity 0.8s;
+    -webkit-transition: top 0.3s, opacity 0.8s;
+    -moz-transition: top 0.3s, opacity 0.8s;
+    -o-transition: top 0.3s, opacity 0.8s;
+}
+.boprt ul {
+    position: relative;
+    zoom: 1;
+    float:right;
+    
+}
+.boprt, .boprt ul, .boprt li, .boprt a, .boprt em {
+    height: 23px;
+    line-height: 23px;
+}
+li {
+    list-style: none;
+}
+.boprt a {
+    padding: 0 2px 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    background-position: right 0;
+}
+.boprt a, .boprt em {
+    float: left;
+    background: url(http://127.0.0.1:8080/GriefGroceryStore/module/img/operatenew24.png?005) no-repeat;
+}
+.boprt .boprt01 em {
+    background-position: 0 -30px;
+}
+.boprt em, .boprt a:hover em {
+    color: #fff;
+}
+.boprt em {
+    padding: 0 5px 0 26px;
+    white-space: nowrap;
+    font-weight: normal;
+    font-style: normal;
+}
